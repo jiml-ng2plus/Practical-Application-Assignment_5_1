@@ -74,6 +74,7 @@ This data comes to us from the UCI Machine Learning repository and was collected
 
 #### What proportion of the total observations chose to accept the coupon? 
 **7210 / 12684 = 56.84%**
+####  56.84%
 
 #### Use a bar plot to visualize the coupon column.
 <img src="images/5_bar_chart_coupon_column.png"/>
@@ -84,32 +85,39 @@ This data comes to us from the UCI Machine Learning repository and was collected
 
 #### What proportion of bar coupons were accepted?
 **827 / 2017 = 41.00%**
-
+#### 41.00%
 
 #### Compare the acceptance rate between those who went to a bar 3 or fewer times a month to those who went more.
 **666 / 153 = 435.29%**
+#### 435.29%
 
 #### Compare the acceptance rate between drivers who go to a bar more than once a month and are over the age of 25 to the all others. Is there a difference?
 **290 / 535 = 54.21%**
+#### 54.21%
 
 #### Use the same process to compare the acceptance rate between drivers who go to bars more than once a month and had passengers that were not a kid and had occupations other than farming, fishing, or forestry.
 **391 / 434 = 90.09%**
+#### 90.09%
 
 
 #### Compare the acceptance rates between those drivers who:
 
 ##### go to bars more than once a month, had passengers that were not a kid, and were not widowed OR
 **391 / 434 = 90.09%**
+#### 90.09%
 
 ##### go to bars more than once a month and are under the age of 30 
 **247 / 578 = 42.73%**
+#### 42.73%
 
 ##### go to cheap restaurants more than 4 times a month and income is less than 50K
-**373 / 1597 = 23.36**
-
+**373 / 1597 = 23.36%**
+#### 23.36%
 
 #### Based on these observations, what do you hypothesize about drivers who accepted the bar coupons?
-##### Based on these observations drivers without child passengers had a high percenatage rate of accepting the Bar coupon
+##### Drivers that had a high percenatage rate of accepting the Bar coupon
+##### - did not have child passengers
+##### - frequented bars more than once a month but not more than three times a month
 
 
 ### Independent Investigation
@@ -134,11 +142,23 @@ This data comes to us from the UCI Machine Learning repository and was collected
 #####  This Seaborn Distplot also shows a trend of during the day for Coffee House coupons
 <img src="images/Seaborn_DistPlot_TOD_Trend.png"/>
 
-##### This Seaborn PairPlot looks like a pegboard.  I'm not sure what to make of it but Matilde encouraged me to include it.
+##### This Seaborn PairPlot looks like a pegboard.  I think it came out that way because I mapped the strings to numbers.
+##### The pattern was uniform and symmetrical which defeats the purpse of trying to use a graph intended for random values.
 <img src="images/Seaborn_PairPlot_TOD_Trend.png"/>
 
+### Insights
+#### The results are interesting but my instincts tell me there's something more than what's on display.
+#### We don't know why the unaccepted coupons are not accepted.
+#### - Are people ignoring them (email or text)?
+#### - Are people routing them to the junk folder?
+#### It's great that 50% of the Coffee House coupons are accepted and that's a starting point for improvement.
+
 ### Next steps and recommendations
-#### I recommend
+#### I recommend a rewards & loyalty program to get more acceptance of Coffee House coupons and collect more data about it.
+#### Giving people an incentive to look at the coupons is half the battle.
+#### Just acknowledging the coupon or not send it to the junk folder will go a long way.
+#### A program to reward coffee drinkers to accept the coupon, either email or text, and then redeem it can be very successful.
+#### Coffee Houses of all sizes (standalone or chain) have loyalty program, but ours could be expanded to other types of establishments.
 
  
 ## Link to notebook
