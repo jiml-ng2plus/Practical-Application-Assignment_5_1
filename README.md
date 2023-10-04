@@ -151,6 +151,7 @@ This data comes to us from the UCI Machine Learning repository and was collected
 #### We don't know why the unaccepted coupons are not accepted.
 #### - Are people ignoring them (email or text)?
 #### - Are people routing them to the junk folder?
+#### - People are creature of habit and habits can be hard to break, especially coffee.
 #### It's great that 50% of the Coffee House coupons are accepted and that's a starting point for improvement.
 
 ### Next steps and recommendations
